@@ -1,0 +1,7 @@
+2021-02-20 17:39:10,925 - root - INFO - poop
+2021-02-20 17:39:47,987 - root - DEBUG - This message should go to the log file
+2021-02-20 17:39:55,228 - root - ERROR - got exception on main handler
+Traceback (most recent call last):
+  File "/Users/michael/Documents/GitHub/text-play/transfer/code/dummy/bork/undef.py", line 8, in undef
+    run_my_stuff()
+NameError: name 'run_my_stuff' is not defined

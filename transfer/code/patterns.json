@@ -1,0 +1,5 @@
+[
+  {"string_id": "stop_word", "pattern": [{"IS_STOP": true}]},
+  {"string_id": "punctuation", "pattern": [{"IS_PUNCT": true}]},
+  {"string_id": "numerical", "pattern": [{"LIKE_NUM": true}]}
+]
