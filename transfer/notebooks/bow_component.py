@@ -22,6 +22,7 @@ class BagOfWords:
         returns lemms using spaCy builtins
         '''
         for token in doc:
-            if not token.is_punct:
-                if not token.is_stop:
-                    yield token.lemma_
+            if not token.is_space:
+                if not token.is_punct:
+                    if not token.is_stop:
+                        yield token.lemma_
